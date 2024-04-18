@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+*
+{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.main
+{
+    border: 15px solid white;
+    border-radius: 100%;
+    width: 40vw;
+    height: 85vh;
+    position: relative;
+    box-shadow: 1px 1px 50px 5px white;
+}
+.head
+{
+    position: absolute;
+    font-size: 35px;
+    top: 21%;
+    left: 16%;
+    font-weight: bold;
+    font-family: "Orbitron", sans-serif;
+}
+
+
+.timer
+{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 45px;
+    width: 80%;
+    left: 10%;
+    top: 40%;
+    font-family: "Orbitron", sans-serif;
+    
+}
+.time{
+    width:112px;
+    text-align: center;
+}
+
+
+.btn
+{   
+    position: absolute;
+    left: 15%;
+    top: 69%;
+    width: 100%;
+    height: 10%;
+}
+
+.control
+{
+    background-color:black;
+    border:2px solid white;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 10px;
+    margin:0px 8px 0px 8px;
+    width: 120px;
+    font-family: "Orbitron", sans-serif;
+}
+.control:hover
+{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow:1px 1px 30px 1px white;
+}
+span
+{
+    font-size: 60px;
+    text-align: center;
+    align-content: center;
+}
